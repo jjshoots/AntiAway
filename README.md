@@ -1,19 +1,19 @@
 # AntiAway
 - Prevents your computer from idling
 
-# Prerequisites
+### Prerequisites
 - Uses the following python packages:
 ```
 pyautogui
 pynput
 ```
 
-# Building from Source
+### Building from Source
 Use the following command:
 ```bash
 pyinstaller --onefile AntiAway.pyw
 ```
 The compiled executable file will be in /dist/
 
-## Setup
+#### Setup
 - Copy AntiAway.exe into %Appdata%/Microsoft/Windows/Start Menu/Programs/Startup
